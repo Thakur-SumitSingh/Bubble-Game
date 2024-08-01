@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(144, 185, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.header {
+    box-sizing: border-box;
+    padding: 0px 30%;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(57, 96, 57);
+    display: flex;
+    align-items: center;
+}
+
+.elem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+.elem span{
+    color: white;
+    font-size: 20px;
+}
+.box{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down-box{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bubble{
+    width: 43px;
+    height: 43px;
+    background-color: rgb(57, 96, 57);
+    border-radius: 50%;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubble:hover{
+    background-color: rgb(43, 74, 43);
+    cursor: pointer;
+}
